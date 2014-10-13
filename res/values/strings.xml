@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gaderypoluki</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="encrypt_btn">Encrypt</string>
+    <string name="clean_btn">Clean</string>
+    <string-array name="code_spinner_array">
+        <item >GA-DE-RY-PO-LU-KI</item>
+        <item >MA-LI-NO-WE-BU-TY</item>
+        <item >PO-LI-TY-KA-RE-NU</item>
+        <item >KA-CE-MI-NU-TO-WY</item>
+        <item >KO-NI-EC-MA-TU-RY</item>
+        <item >ZA-RE-WY-BU-HO-KI</item>
+        <item >BA-WO-LE-TY-KI-JU</item>
+        <item >RE-GU-LA-MI-NO-WY</item>
+        <item >KU-LO-PE-RY-ZA-GI</item>
+        <item >HA-LO-JU-PI-TE-RY</item>
+        <item >MO-TY-LE-CU-DA-KI</item>
+        <item >NO-WE-BU-TY-LI-SA</item>
+        <item >ZA-BY-TK-OW-NI-CE</item>
+        <item >TO-MY-BE-WA-LU-KI</item>
+        <item >KU-LA-RY-MI-NE-TO</item>
+    </string-array>
+    <string name="encrypted_text">Encrypted Text:</string>
+</resources>
