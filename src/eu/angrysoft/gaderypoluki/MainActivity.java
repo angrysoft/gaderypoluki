@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		final Button btn_encrypt = (Button) findViewById(R.id.button1);
+		final Button btn_decrypt = (Button) findViewById(R.id.button3);
 		final Button btn_clean = (Button) findViewById(R.id.button2);
 		this.editTxt = (EditText) findViewById(R.id.editText1);
 		this.textView = (TextView) findViewById(R.id.TextView1);
@@ -44,6 +45,16 @@ public class MainActivity extends Activity {
 				textView.setText(encrypt(editTxt.getText().toString()));
 			}
 		});
+		
+		btn_decrypt.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				textView.setText(encrypt(editTxt.getText().toString()));
+			}
+		});
+		
 		btn_clean.setOnClickListener(new View.OnClickListener() {
 			
 			@Override

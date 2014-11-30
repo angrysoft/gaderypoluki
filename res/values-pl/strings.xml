@@ -4,6 +4,7 @@
     <string name="app_name">Gaderypoluki</string>
     <string name="action_settings">Settings</string>
     <string name="encrypt_btn">Szyfruj</string>
+    <string name="decrypt_btn">Odszyfruj</string>
     <string name="clean_btn">Czyść</string>
     <string-array name="code_spinner_array">
         <item >GA-DE-RY-PO-LU-KI</item>

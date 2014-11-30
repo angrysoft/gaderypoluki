@@ -11,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="332dp"
         android:orientation="vertical" >
 
         <Spinner
@@ -49,6 +49,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/encrypt_btn" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decrypt_btn" />
 
         <Button
             android:id="@+id/button2"
